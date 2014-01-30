@@ -1,0 +1,43 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/*
+.container {
+	background-image:url('trees.jpg');
+}
+*/
+
+.companyname {
+	font-family: 'Norican', cursive;
+	font-size: 4.5em;
+}
+
+
+.btn-xl {
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 5px;
+    margin-top: 20px;
+    padding-bottom: 18px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 18px;
+    width: auto;
+
+	/*
+	font-family: 'Yellowtail', cursive;
+font-family: 'Lily Script One', cursive;
+font-family: 'Artifika', serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Monoton', cursive;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Cutive', serif;
+font-family: 'Playball', cursive;
+font-family: 'Patua One', cursive;
+font-family: 'Norican', cursive; */
