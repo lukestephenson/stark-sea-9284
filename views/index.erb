@@ -58,7 +58,7 @@ height: 360px;
 }
 */
 
-.navbar-brand {font-family: 'Roboto Slab', serif;}
+.navbar-brand {font-family: 'PT Serif Caption', serif;}
 
 /* font-family: 'Codystar', cursive;
 font-family: 'Coustard', serif;
@@ -74,6 +74,9 @@ font-family: 'Amaranth', sans-serif;
 */
 
 /* Evil override of booom style applied to all input fields */
+.navbar .navbar-brand {color:#000000;
+                        font-size: 30px;}
+
 input.btn-primary {
     background-color: #1abc9c !important;
 }
@@ -100,9 +103,13 @@ input.btn-primary {
     text-shadow: 2px 2px 4px #000000;
 }
 
-    #how {padding-top: 0px;}
+.navbar .navbar-brand {color:#000000;
+                        font-size: 30px;}
 
     .nopad-l {padding-left: 0px;}
+    .nopad-r  {padding-right: 0px;}
+
+
     </style>
 </head>
   
@@ -222,7 +229,7 @@ input.btn-primary {
                                             <label for="mce-FIRSTNAME">First Name  <span class="asterisk">*</span></label>
                                             <input type="text" value="" name="FIRSTNAME" class="required form-control" id="mce-FIRSTNAME" placeholder="First Name">
                                         </div>
-                                        <div class="col-sm-6 nopad-l">
+                                        <div class="col-sm-6 nopad-l nopad-r">
                                             <label for="mce-LASTNAME">Last Name </label>
                                             <input type="text" value="" name="LASTNAME" class="form-control" placeholder="Last Name">
                                         </div>
